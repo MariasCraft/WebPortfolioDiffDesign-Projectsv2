@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Special Elite', cursive;
+    background-color: #7895B2;
+}
+
+.header {
+    text-align: center;
+    background-color: #7895B2;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+.projects {
+    top: 20px;
+    background-color: #7895B2;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0;
+    gap: 35px;
+}
+
+.projects img {
+    border: 0;
+    background-color: #7895B2;
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+
+.footer {
+    text-align: left;
+    padding-left: 50px;
+}
