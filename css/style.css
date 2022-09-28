@@ -1,19 +1,18 @@
 * {
     box-sizing: border-box;
     font-family: 'Special Elite', cursive;
-    background-color: #7895B2;
+    background-color: #704F4F;
 }
 
 .header {
     text-align: center;
-    background-color: #7895B2;
+    background-color: #704F4F;
     margin-top: 20px;
     bottom: 0;
 }
 
 .projects {
-    top: 20px;
-    background-color: #7895B2;
+    background-color: #704F4F;
     display: flex;
     /* flex-direction: row-reverse; */
     flex-wrap: wrap;
@@ -22,20 +21,23 @@
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0;
-    gap: 35px;
+    gap: 16px;
 }
 
 .projects img {
     border: 0;
-    background-color: #7895B2;
-    height: 350px;
-    width: 300px;
+    background-color: #704F4F;
+    height: 400px;
+    width: 350px;
     object-fit: cover;
     border-radius: 10%;
 }
 
 
+
+
 .footer {
     text-align: left;
     padding-left: 50px;
+    margin-bottom: 20px;
 }
